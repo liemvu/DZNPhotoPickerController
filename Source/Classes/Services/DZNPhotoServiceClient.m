@@ -171,9 +171,10 @@
         [params setObject:photoSearchUrlPathForService(self.service) forKey:@"method"];
         [params setObject:@"json" forKey:@"format"];
         [params setObject:@"photos" forKey:@"media"];
-        [params setObject:@(YES) forKey:@"in_gallery"];
+        //[params setObject:@(YES) forKey:@"in_gallery"];
         [params setObject:@(1) forKey:@"safe_search"];
         [params setObject:@(1) forKey:@"content_type"];
+        [params setObject:@"interestingness-desc" forKey:@"sort"];
     }
     else if (self.service == DZNPhotoPickerControllerServiceGoogleImages)
     {
