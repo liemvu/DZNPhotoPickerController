@@ -1,6 +1,6 @@
 @dznversion = "1.5"
 @afversion = "2.3.1"
-@sdversion = "3.7"
+@sdversion = "~> 3.7"
 
 Pod::Spec.new do |s|
   s.name         	= "DZNPhotoPickerController"
